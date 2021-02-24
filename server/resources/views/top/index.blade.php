@@ -11,12 +11,13 @@
         @include('shared.sidebar')
         </div>
         <div class="col-sm-9">
-        @include('')
+        {{-- @include('') --}}
         </div>
     </div>
 
     @else
-    @include('')
-    @endif
+    {{-- @include('') --}}
+    こんにちは
+    @endif 
 
 @endsection
